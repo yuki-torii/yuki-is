@@ -1,0 +1,37 @@
+{
+  "name": "yuki-is",
+  "description": "A npm project",
+  "version": "0.0.1",
+  "author": "limichange <limichange@hotmail.com>",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "npm run lint && ava",
+    "lint": "eslint --ext .js src test/unit/specs"
+  },
+  "license": "MIT",
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "pre-commit": "^1.1.3"
+  },
+  "standard": {
+    "globals": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:yuki-torii/yuki-is.git.git"
+  },
+  "bugs": {
+    "url": "git@github.com:yuki-torii/yuki-is.git/issues"
+  },
+  "homepage": "git@github.com:yuki-torii/yuki-is.git#readme"
+}
