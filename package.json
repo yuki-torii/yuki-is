@@ -1,7 +1,7 @@
 {
   "name": "yuki-is",
   "description": "A npm project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "limichange <limichange@hotmail.com>",
   "main": "lib/index.js",
   "scripts": {
@@ -14,8 +14,7 @@
   "pre-commit": [
     "lint"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.17.0",
     "eslint": "^3.13.1",
