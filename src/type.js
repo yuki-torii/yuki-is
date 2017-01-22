@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   string (value) {
     return toString.call(value) === '[object String]'
   },

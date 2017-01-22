@@ -1,5 +1,3 @@
-import type from './type'
-
-export default {
-  type
+module.exports = {
+  type: require('./type')
 }
