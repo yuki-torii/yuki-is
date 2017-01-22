@@ -1,1 +1,5 @@
-export * from './type'
+import type from './type'
+
+export default {
+  type
+}
