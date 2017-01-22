@@ -3,12 +3,14 @@
   "description": "A npm project",
   "version": "0.0.5",
   "author": "limichange <limichange@hotmail.com>",
-  "main": "lib/index.js",
+  "main": "dist/yuki-is.common.js",
+  "module": "dist/yuki-is.es5.js",
+  "unpkg": "dist/yuki-is.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev": "rollup -cw",
+    "build": "rollup -c --environment BUILD && uglifyjs dist/yuki-is.js > dist/yuki-is.min.js",
     "test": "npm run lint && ava",
-    "lint": "eslint --ext .js src test/unit/specs",
-    "prepublish": "babel src --out-dir lib"
+    "lint": "eslint --ext .js src test/unit/specs"
   },
   "license": "MIT",
   "pre-commit": [
