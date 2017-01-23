@@ -31,11 +31,6 @@
     "rollup-watch": "^3.2.2",
     "uglify-js": "^2.7.5"
   },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  },
   "standard": {
     "globals": []
   },
