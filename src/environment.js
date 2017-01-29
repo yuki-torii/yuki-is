@@ -1,7 +1,7 @@
 const {
   userAgent,
   compareVersion
-} = require('utils')
+} = require('./utils')
 
 module.exports = {
   android () {
