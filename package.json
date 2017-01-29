@@ -1,7 +1,7 @@
 {
   "name": "yuki-is",
   "description": "A npm project",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "limichange <limichange@hotmail.com>",
   "main": "dist/yuki-is.common.js",
   "module": "dist/yuki-is.es5.js",
