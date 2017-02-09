@@ -11,6 +11,7 @@ const comparator = {
 }
 
 module.exports = {
+  toString: Object.prototype.toString,
   navigator,
   appVersion,
   userAgent,
